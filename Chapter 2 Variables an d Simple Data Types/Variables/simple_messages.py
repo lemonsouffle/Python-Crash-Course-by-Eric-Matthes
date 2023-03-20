@@ -2,5 +2,5 @@
 # Затем замените значение переменной другим сообщением и выведите новое сообщение.
 message_1 = "Hi, I'm learning Python"
 print(message_1)
-message_1 = 'Changed variable'
+message_1 = 'Changed variable!'
 print(message_1)

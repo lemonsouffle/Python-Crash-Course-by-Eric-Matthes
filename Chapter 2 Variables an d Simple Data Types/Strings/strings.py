@@ -5,9 +5,9 @@ print(name.upper())
 print(name.lower())
 
 #Конкатенация
-first_name = "ada"
-last_name = "lovelace"
-full_name = first_name + " " + last_name
+first_name = " ada "
+last_name = " lovelace "
+full_name = first_name.strip() + " " + last_name.strip()
 message = "Hello, " + full_name.title() + "!"
 print(message)
 

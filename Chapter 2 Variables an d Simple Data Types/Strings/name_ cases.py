@@ -13,7 +13,8 @@ print(my_name.upper())
 print(my_name.capitalize())
 print(my_name.title())
 
-# 2-5. Знаменитая цитата: найдите известное высказывание, которое вам понравилось. Выведите текст цитаты с именем автора. 
+# 2-5. Знаменитая цитата: найдите известное высказывание, которое вам понравилось. 
+# Выведите текст цитаты с именем автора. 
 # Результат должен выглядеть примерно так (включая кавычки):
 # Albert Einstein once said, "A person who never made a mistake never tried anything new."
 quote = 'The pain of studying is only temporary. But the pain of not knowing – ignorance — is forever.'
@@ -26,9 +27,9 @@ famous_person = 'Harvard University'
 quote = 'The pain of studying is only temporary. But the pain of not knowing – ignorance — is forever.'
 print('"' + quote + '", is written in ' + famous_person + "'s motivation book")
 
-# 2-7. Удаление пропусков: сохраните имя пользователя в переменной. Добавьте в начале
-# и в конце имени несколько пропусков. Проследите за тем, чтобы каждая служебная последовательность , 
-# “\t” и “\n”, встречалась по крайней мере один раз.
+# 2-7. Удаление пропусков: сохраните имя пользователя в переменной. 
+# Добавьте в начале и в конце имени несколько пропусков. 
+# Проследите за тем, чтобы каждая служебная последовательность, “\t” и “\n”, встречалась по крайней мере один раз.
 # Выведите имя, чтобы были видны пропуски в начале и конце строки. Затем выведите его
 # снова с использованием каждой из функций удаления пропусков: lstrip(), rstrip() и strip().
 username = '\t\n\n\n   lemonsouffle   \t\n'
